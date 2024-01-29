@@ -1,0 +1,59 @@
+@media screen and (max-width:1066px) {
+    /* nav{background-color: red;} */
+
+    nav {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .search input {
+        width: 50vw;
+    }
+
+    .btn button {
+        margin: 10px auto;
+    }
+
+    .form-ele1 {
+        margin-left: 0px;
+    }
+
+    .navallproduct {
+        padding: 10px;
+    }
+
+    .productimage {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .productIMG {
+        width: 94vw;
+        height: 57vw;
+    }
+
+    .cellSize {
+        height: 15vw;
+        width: 29vw;
+    }
+
+    .pricingTbl {
+        margin-left: 4vw;
+    }
+
+    .formcl input,
+    select,
+    textarea {
+        width: 75vw;
+    }
+
+    #clock {
+        display: none;
+    }
+
+}
