@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./cartPage.css">
+    <link rel="stylesheet" href="../style/responsive.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/utils.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <!-- <div class="pogress" id="pogressID"></div> -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="" height="73px">
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/whyus">Why us?</a></li>
+                </ul>
+                <form class="form" action="/searching" method="post">
+                    
+                    <div class="search">
+                        <input class="form-ele1" type="text" id="searchbarID" name="seachbar" placeholder="Search here..."
+                            width="20vw">
+                    </div>
+                    <div class="btn">
+                        <button class="bttn" type="submit">Search</button>
+                    </div>
+                </form>
+    
+                <a href="/searching">
+                    <div class="navallproduct">All Services</div>
+                </a>
+    
+            </nav>
+            <a href="" class="freeTrl bblink">Get Your<br>Free Trial<br>up to $30</a>
+        </header>
+        <div class="card-item-cont" id="card-item-cont">
+            <p class="coupon"><span class="coupon-code"></span> <button id="coupon-btn">Apply</button> <button id="rem-btn">Remove</button></p>
+            <div class="item-cont">
+                <div class="card-items" id="card-items">
+                    <!-- All Item are append here -->
+                </div>
+                <div>
+                    <form class="form-cont">
+                        <input type="text" value="Billing summery" readonly style="border: none; font-size: 22px; font-weight: bold; padding: 0px;"><br>
+                        <input type="text" id="price" value="" readonly style="border: none; font-size: 17px; font-weight: bold; padding: 0px;"><br>
+                        <input type="text" id="gst" value="" readonly style="border: none; font-size: 15px; font-weight: bold; padding: 0px;"><br>
+                        <input type="text" id="disc" value="Discount 0%:     $00" readonly style="border: none; font-size: 15px; font-weight: bold; padding: 0px;"><br>
+                        <input type="text" id="f-price" value="" readonly style="border: none; font-size: 15px; font-weight: bold; padding: 0px;"><br>
+                        <input type="text" name="" id="name" placeholder="Full name" required><br>
+                        <input type="text" name="" id="number" placeholder="Mobile number" required><br>
+                        <input type="email" name="" id="email" placeholder="Email" required><br>
+                        <input type="text" name="" id="address" placeholder="Address"><br>
+                        <input type="text" name="" id="zip-code" placeholder="ZIP" required><br>
+                        <input type="submit" id="submit-btn" value="Submit & Pay">
+                    </form>
+                </div>
+            </div>
+            <div class="des-cont">
+              <h1>Description</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia saepe porro iusto tempore pariatur. Magnam impedit quia vitae exercitationem perspiciatis quasi praesentium facere, aliquam facilis voluptatem totam possimus atque!
+              Provident, quasi explicabo. Maiores perferendis voluptatum totam nemo nihil eum dignissimos nulla possimus. Ipsam blanditiis, fugit nemo nesciunt omnis cupiditate, reprehenderit nobis reiciendis temporibus officiis quaerat quae asperiores laborum tempora.
+              Cumque iure commodi incidunt expedita labore, totam, aperiam cum, iste explicabo itaque nostrum dolorum nam! Qui, rem. Id natus tenetur, tempore laboriosam veritatis ratione qui, aut non eum optio illo.</p>  
+            </div>
+        </div>
+        <div class="contact-info-cont">
+            <h2>Give us your feedback</h2>
+            <form id="">
+                <input id="fe-name" type="text" placeholder="name" required><br>
+                <input id="fe-email" type="email" placeholder="Email" required><br>
+                <input id="fe-text" type="text" placeholder="Your suggestion" required><br>
+                <input type="submit" id="feed-submit-btn">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./cartPage.js"></script>
+</html>

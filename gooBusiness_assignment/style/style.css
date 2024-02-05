@@ -424,9 +424,18 @@ background-color: red; */
 }
 
 .line3 {
+    width: 96px;
     color: rgb(163, 117, 1);
+    /* border: solid 1px red; */
+    padding: 5px 0px;
+    border-radius: 3px;
 }
 
+.line3:hover {
+    background-color: rgba(20, 194, 20, 0.726);
+    color: black;
+    transition: 0.3s ease-in-out;
+}
 
 .card h2 {
     font-family: sans-serif;
@@ -465,3 +474,5 @@ background-color: red; */
         opacity: 0;
     }
 }
+
+
